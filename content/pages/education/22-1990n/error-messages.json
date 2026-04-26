@@ -1,0 +1,316 @@
+{
+  "_comment": "VA Form 22-1990n — Field-level, submission, and save-in-progress error messages. All messages follow VA.gov plain language content style guide.",
+  "formNumber": "22-1990n",
+  "formTitle": "Application for VA Education Benefits Under the National Call to Service (NCS) Program",
+
+  "fieldErrors": {
+    "personalInformation": {
+      "ssn": {
+        "required": "Please enter your Social Security number.",
+        "pattern": "Please enter a valid 9-digit Social Security number. Use the format 123-45-6789.",
+        "label": "Social Security number"
+      },
+      "dateOfBirth": {
+        "required": "Please enter your date of birth.",
+        "invalid": "Please enter a valid date of birth.",
+        "futureDate": "Your date of birth must be in the past.",
+        "tooRecent": "Please check your date of birth. You must be at least 17 years old to have enlisted.",
+        "label": "Date of birth"
+      },
+      "sex": {
+        "required": "Please select your sex.",
+        "label": "Sex"
+      },
+      "firstName": {
+        "required": "Please enter your first name.",
+        "maxLength": "First name cannot be more than 30 characters.",
+        "label": "First name"
+      },
+      "lastName": {
+        "required": "Please enter your last name.",
+        "maxLength": "Last name cannot be more than 30 characters.",
+        "label": "Last name"
+      },
+      "middleInitial": {
+        "pattern": "Middle initial must be a single letter (A–Z).",
+        "label": "Middle initial"
+      }
+    },
+
+    "address": {
+      "street": {
+        "required": "Please enter your street address.",
+        "label": "Street address"
+      },
+      "city": {
+        "required": "Please enter your city.",
+        "label": "City"
+      },
+      "state": {
+        "required": "Please select your state.",
+        "label": "State"
+      },
+      "zipCode": {
+        "required": "Please enter your ZIP code.",
+        "pattern": "Please enter a valid 5-digit ZIP code. For example: 12345.",
+        "label": "ZIP code"
+      }
+    },
+
+    "contactInformation": {
+      "homePhone": {
+        "pattern": "Please enter a valid 10-digit home phone number. For example: 800-555-1234.",
+        "label": "Home phone number"
+      },
+      "mobilePhone": {
+        "pattern": "Please enter a valid 10-digit mobile phone number. For example: 800-555-1234.",
+        "label": "Mobile phone number"
+      },
+      "atLeastOnePhone": {
+        "required": "Please enter at least one phone number (home or mobile).",
+        "label": "Phone number"
+      },
+      "email": {
+        "pattern": "Please enter a valid email address. For example: name@example.com.",
+        "label": "Email address"
+      }
+    },
+
+    "educationAndTraining": {
+      "typeOfTraining": {
+        "required": "Please select at least one type of education or training.",
+        "label": "Type of education or training"
+      },
+      "flightTrainingCourseType": {
+        "required": "Please indicate whether your course is an Airline Transport Pilot (ATP) course.",
+        "label": "Is your course an Airline Transport Pilot course?"
+      },
+      "flightTrainingAcknowledgment": {
+        "required": "Please confirm that you currently hold the required pilot certificate and medical certificate for your type of flight training.",
+        "label": "Flight training requirement acknowledgment"
+      },
+      "schoolName": {
+        "required": "Please enter the name of your school or training establishment.",
+        "label": "School or training establishment name"
+      },
+      "schoolStreet": {
+        "required": "Please enter the school's street address.",
+        "label": "School street address"
+      },
+      "schoolCity": {
+        "required": "Please enter the school's city.",
+        "label": "School city"
+      },
+      "schoolState": {
+        "required": "Please select the school's state.",
+        "label": "School state"
+      },
+      "schoolZip": {
+        "required": "Please enter the school's ZIP code.",
+        "pattern": "Please enter a valid 5-digit ZIP code for the school. For example: 12345.",
+        "label": "School ZIP code"
+      }
+    },
+
+    "serviceInformation": {
+      "activeDutyStatus": {
+        "required": "Please indicate whether you are currently on active duty.",
+        "label": "Active duty status"
+      },
+      "terminalLeaveStatus": {
+        "required": "Please indicate whether you are currently on terminal leave.",
+        "label": "Terminal leave status"
+      },
+      "dateEnteredService": {
+        "required": "Please enter the date you entered this period of service.",
+        "invalid": "Please enter a valid date for when you entered service.",
+        "futureDate": "Your service entry date cannot be in the future.",
+        "ncsEligibilityWarning": "The NCS program requires that you first entered military service on or after October 1, 2003. If this date is correct, you may not be eligible for NCS education benefits. Contact the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551) if you have questions.",
+        "label": "Date entered service"
+      },
+      "dateSeparated": {
+        "invalid": "Please enter a valid date for when you separated from service.",
+        "beforeEntryDate": "Your separation date must be after your service entry date.",
+        "futureDate": "Your separation date cannot be in the future unless you are currently serving.",
+        "label": "Date separated from service"
+      },
+      "serviceComponent": {
+        "required": "Please enter your service component. For example: USN, USAF, USAR, ARNG.",
+        "label": "Service component"
+      },
+      "serviceStatus": {
+        "required": "Please enter your service status. For example: Active duty, drilling reservist, IRR.",
+        "label": "Service status"
+      },
+      "dd2863Upload": {
+        "required": "Please upload your DD Form 2863 (National Call to Service Election of Options). This document is required. Your application cannot be processed without it.",
+        "fileType": "Please upload your DD Form 2863 as a PDF, JPG, or PNG file.",
+        "fileSize": "Your DD Form 2863 file is too large. Please upload a file that is 20 MB or smaller.",
+        "uploadFailed": "We couldn't upload your DD Form 2863. Please try again. If the problem continues, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551).",
+        "label": "DD Form 2863 (National Call to Service Election of Options)"
+      },
+      "dd214Upload": {
+        "required": "Please upload your DD Form 214 (Member 4 copy). This document is required.",
+        "wrongCopy": "Please upload the Member 4 copy of your DD Form 214. Other copies are not accepted for this application.",
+        "fileType": "Please upload your DD Form 214 as a PDF, JPG, or PNG file.",
+        "fileSize": "Your DD Form 214 file is too large. Please upload a file that is 20 MB or smaller.",
+        "uploadFailed": "We couldn't upload your DD Form 214. Please try again. If the problem continues, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551).",
+        "label": "DD Form 214 (Member 4 copy)"
+      }
+    },
+
+    "concurrentBenefits": {
+      "rotcScholarship": {
+        "required": "Please indicate whether you are currently participating in a Senior ROTC scholarship program.",
+        "label": "Senior ROTC scholarship participation"
+      },
+      "federalTuitionAssistance": {
+        "required": "Please indicate whether you are receiving or anticipate receiving money from the Armed Forces or Public Health Service for this course.",
+        "label": "Federal Tuition Assistance or Armed Forces funding"
+      },
+      "civilianGovernmentFunding": {
+        "required": "Please indicate whether you expect to receive funds from your agency or department for these courses.",
+        "label": "Civilian government agency funding"
+      },
+      "civilianFundingSource": {
+        "required": "Please describe the source of funds from your agency or department.",
+        "maxLength": "Source of funds description cannot be more than 200 characters.",
+        "label": "Source of funds"
+      }
+    },
+
+    "directDeposit": {
+      "accountType": {
+        "required": "Please select your bank account type (checking or savings).",
+        "label": "Bank account type"
+      },
+      "routingNumber": {
+        "required": "Please enter your bank's 9-digit routing or transit number.",
+        "pattern": "Please enter a valid 9-digit bank routing number. You can find it on the bottom left of your check.",
+        "invalid": "The routing number you entered doesn't appear to be valid. Please check the 9-digit number on the bottom left of your check and try again.",
+        "label": "Bank routing or transit number"
+      },
+      "accountNumber": {
+        "required": "Please enter your bank account number.",
+        "pattern": "Please enter a valid bank account number (4 to 17 digits).",
+        "label": "Bank account number"
+      },
+      "bankDocumentUpload": {
+        "required": "Please upload a voided personal check or deposit slip to verify your bank account information.",
+        "fileType": "Please upload your voided check or deposit slip as a PDF, JPG, or PNG file.",
+        "fileSize": "Your file is too large. Please upload a file that is 20 MB or smaller.",
+        "uploadFailed": "We couldn't upload your voided check or deposit slip. Please try again. If the problem continues, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551).",
+        "label": "Voided check or deposit slip"
+      }
+    },
+
+    "reviewAndSubmit": {
+      "esoConsultation": {
+        "required": "Please certify that you have consulted with an Education Service Officer (ESO) regarding your education program before submitting.",
+        "label": "Education Service Officer consultation"
+      },
+      "certificationAttestation": {
+        "required": "You must certify that the information in your application is true and correct before you can submit.",
+        "label": "Certification"
+      }
+    }
+  },
+
+  "submissionErrors": {
+    "generic": {
+      "heading": "We're sorry. Something went wrong when we tried to submit your application.",
+      "body": "We couldn't submit your application. Your progress has been saved. Please try submitting again in a few minutes. If this problem continues, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551), Monday–Friday, 8:00 a.m.–7:00 p.m. ET, or TTY: 711.",
+      "actionText": "Try submitting again"
+    },
+    "serverError": {
+      "heading": "We're sorry. We couldn't submit your application right now.",
+      "body": "Our system is temporarily unavailable. Your progress has been saved. Please wait a few minutes and try again. If this problem continues, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551), Monday–Friday, 8:00 a.m.–7:00 p.m. ET, or TTY: 711.",
+      "actionText": "Try submitting again"
+    },
+    "networkError": {
+      "heading": "We're sorry. We couldn't connect to our server.",
+      "body": "Check your internet connection and try again. If you're still having trouble after reconnecting, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551), Monday–Friday, 8:00 a.m.–7:00 p.m. ET, or TTY: 711.",
+      "actionText": "Try submitting again"
+    },
+    "duplicateSubmission": {
+      "heading": "It looks like you may have already submitted this application.",
+      "body": "Our records show a similar application was recently submitted. If you believe this is an error, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551), Monday–Friday, 8:00 a.m.–7:00 p.m. ET, or TTY: 711.",
+      "actionText": "Return to VA.gov home"
+    },
+    "authExpired": {
+      "heading": "Your session has expired.",
+      "body": "For your security, we signed you out after a period of inactivity. Your progress has been saved. Sign in again to continue your application.",
+      "actionText": "Sign in to continue"
+    }
+  },
+
+  "saveInProgressErrors": {
+    "saveError": {
+      "heading": "We couldn't save your application.",
+      "body": "We're sorry. We couldn't save your progress right now. Please try again. If this problem continues, don't navigate away from this page or your unsaved changes may be lost.",
+      "actionText": "Try saving again"
+    },
+    "loadError": {
+      "heading": "We couldn't load your saved application.",
+      "body": "We're sorry. We couldn't retrieve your saved application. Please try again or start a new application. If you continue to have problems, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551), Monday–Friday, 8:00 a.m.–7:00 p.m. ET, or TTY: 711.",
+      "actionPrimary": "Try loading again",
+      "actionSecondary": "Start a new application"
+    },
+    "expiredApplication": {
+      "heading": "Your saved application has expired.",
+      "body": "Saved applications expire after 60 days. We're sorry, but your saved progress is no longer available. You'll need to start a new application.",
+      "actionText": "Start a new application"
+    },
+    "sessionTimeoutWarning": {
+      "heading": "Your session is about to expire.",
+      "body": "You've been inactive for a while. For your security, we'll sign you out in 5 minutes. Your progress has been saved. Sign in again to continue.",
+      "actionPrimary": "Stay signed in",
+      "actionSecondary": "Sign out"
+    }
+  },
+
+  "prefillErrors": {
+    "prefillUnavailable": {
+      "heading": "We couldn't pre-fill your information.",
+      "body": "We weren't able to load your saved profile information right now. You can still complete the application by entering your information manually.",
+      "type": "info"
+    },
+    "prefillPartial": {
+      "heading": "We pre-filled some of your information.",
+      "body": "We loaded some information from your VA profile, but some fields couldn't be pre-filled. Please review all information carefully and fill in any missing fields.",
+      "type": "info"
+    },
+    "serviceDatesPrefillWarning": {
+      "heading": "Review your pre-filled service dates.",
+      "body": "We pre-filled your service dates from your military records. If you separated recently, these dates may not be fully updated yet. Please review them carefully and correct any errors before submitting.",
+      "type": "warning"
+    }
+  },
+
+  "uploadErrors": {
+    "virusScanFailed": {
+      "message": "This file failed our security check. Please make sure the file isn't corrupted and try uploading it again."
+    },
+    "unsupportedFileType": {
+      "message": "This file type isn't supported. Please upload a PDF, JPG, or PNG file."
+    },
+    "fileTooLarge": {
+      "message": "This file is too large. Please upload a file that is 20 MB or smaller."
+    },
+    "emptyFile": {
+      "message": "This file appears to be empty. Please check the file and try uploading it again."
+    },
+    "uploadTimeout": {
+      "message": "The upload timed out. Please check your internet connection and try again."
+    },
+    "tooManyFiles": {
+      "message": "You can only upload one file for each document. Please remove the existing file before uploading a new one."
+    }
+  },
+
+  "pageValidationSummary": {
+    "heading": "There are {count} error(s) on this page.",
+    "singular": "There is 1 error on this page.",
+    "instruction": "Please fix the following before continuing:"
+  }
+}

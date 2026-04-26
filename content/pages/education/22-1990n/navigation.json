@@ -1,0 +1,154 @@
+{
+  "_comment": "Sidebar navigation configuration for VA Form 22-1990n content pages. Used to render the left-rail nav on static content pages related to the NCS education benefits application.",
+  "formNumber": "22-1990n",
+  "navTitle": "NCS education benefits (VA Form 22-1990n)",
+  "rootPath": "/education/apply-for-education-benefits/application/1990n",
+
+  "sidebarNav": {
+    "title": "Apply for education benefits",
+    "items": [
+      {
+        "label": "About NCS education benefits",
+        "path": "/education/apply-for-education-benefits/application/1990n",
+        "description": "Learn about the National Call to Service education benefit and how to apply.",
+        "isRootPage": true,
+        "items": [
+          {
+            "label": "Eligibility",
+            "path": "/education/apply-for-education-benefits/application/1990n#eligibility",
+            "description": "Find out if you qualify for NCS education benefits."
+          },
+          {
+            "label": "What documents you'll need",
+            "path": "/education/apply-for-education-benefits/application/1990n#documents",
+            "description": "Review required documents before starting your application."
+          },
+          {
+            "label": "What to expect after you apply",
+            "path": "/education/apply-for-education-benefits/application/1990n#after-you-apply",
+            "description": "Learn what happens after VA receives your application."
+          }
+        ]
+      },
+      {
+        "label": "Apply now (VA Form 22-1990n)",
+        "path": "/education/apply-for-education-benefits/application/1990n",
+        "description": "Start your online application for NCS education benefits.",
+        "isApplicationLink": true,
+        "callToAction": true
+      },
+      {
+        "label": "Help and FAQs",
+        "path": "/education/apply-for-education-benefits/application/1990n/help",
+        "description": "Get answers to common questions about VA Form 22-1990n.",
+        "items": [
+          {
+            "label": "About the NCS program",
+            "path": "/education/apply-for-education-benefits/application/1990n/help#ncs-program",
+            "description": "Questions about NCS eligibility and the program itself."
+          },
+          {
+            "label": "Using the online application",
+            "path": "/education/apply-for-education-benefits/application/1990n/help#online-application",
+            "description": "Questions about filling out and submitting the form online."
+          },
+          {
+            "label": "Required documents",
+            "path": "/education/apply-for-education-benefits/application/1990n/help#required-documents",
+            "description": "Questions about DD Form 2863, DD Form 214, and other documents."
+          },
+          {
+            "label": "Direct deposit",
+            "path": "/education/apply-for-education-benefits/application/1990n/help#direct-deposit",
+            "description": "Questions about setting up direct deposit for payments."
+          },
+          {
+            "label": "After you apply",
+            "path": "/education/apply-for-education-benefits/application/1990n/help#after-you-apply",
+            "description": "Questions about application status, the Certificate of Eligibility, and next steps."
+          }
+        ]
+      }
+    ]
+  },
+
+  "relatedLinks": {
+    "title": "Related VA education benefits",
+    "items": [
+      {
+        "label": "Post-9/11 GI Bill (VA Form 22-1990)",
+        "path": "/education/apply-for-education-benefits/application/1990",
+        "description": "Apply for Post-9/11 GI Bill education benefits."
+      },
+      {
+        "label": "Montgomery GI Bill (VA Form 22-1990)",
+        "path": "/education/apply-for-education-benefits/application/1990",
+        "description": "Apply for Montgomery GI Bill benefits."
+      },
+      {
+        "label": "Explore all education benefit types",
+        "path": "/education/types-of-education-and-training/",
+        "description": "Compare VA education benefit programs."
+      },
+      {
+        "label": "Check VA education eligibility",
+        "path": "/education/eligibility/",
+        "description": "Find out which education benefits you may qualify for."
+      },
+      {
+        "label": "GI Bill Comparison Tool",
+        "path": "https://www.va.gov/gi-bill-comparison-tool",
+        "description": "Compare schools and estimate your education benefit.",
+        "isExternal": false
+      },
+      {
+        "label": "Download VA Form 22-1990n (PDF)",
+        "path": "https://www.va.gov/find-forms/about-form-22-1990n",
+        "description": "Download the paper version of VA Form 22-1990n.",
+        "isExternal": false
+      }
+    ]
+  },
+
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "Education and training",
+      "path": "/education/"
+    },
+    {
+      "name": "Apply for education benefits",
+      "path": "/education/apply-for-education-benefits/"
+    },
+    {
+      "name": "Apply for NCS education benefits (VA Form 22-1990n)",
+      "path": "/education/apply-for-education-benefits/application/1990n"
+    }
+  ],
+
+  "contactBlock": {
+    "title": "Need help?",
+    "items": [
+      {
+        "type": "phone",
+        "label": "GI Bill Hotline",
+        "number": "1-888-GI-BILL-1",
+        "numberFormatted": "1-888-442-4551",
+        "href": "tel:+18884424551",
+        "hours": "Monday–Friday, 8:00 a.m.–7:00 p.m. ET",
+        "tty": "711"
+      },
+      {
+        "type": "phone",
+        "label": "VA general information",
+        "number": "1-800-827-1000",
+        "href": "tel:+18008271000",
+        "hours": "Monday–Friday, 8:00 a.m.–9:00 p.m. ET",
+        "tty": "711"
+      }
+    ]
+  }
+}
