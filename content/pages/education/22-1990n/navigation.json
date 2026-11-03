@@ -1,0 +1,98 @@
+{
+  "_comment": "Sidebar navigation for VA Form 22-1990n static content pages. Used by content-build Liquid templates to render left-rail nav on education/22-1990n pages.",
+  "title": "NCS Education Benefits (VA Form 22-1990n)",
+  "rootPath": "/education/apply-for-education-benefits/application/1990n",
+  "items": [
+    {
+      "label": "About this benefit",
+      "path": "/education/apply-for-education-benefits/application/1990n/introduction",
+      "order": 1,
+      "description": "What the NCS education benefit is, eligibility requirements, and what documents you'll need."
+    },
+    {
+      "label": "Apply now",
+      "path": "/education/apply-for-education-benefits/application/1990n",
+      "order": 2,
+      "description": "Start or continue your online application for NCS education benefits.",
+      "isCtaLink": true
+    },
+    {
+      "label": "Help and FAQs",
+      "path": "/education/apply-for-education-benefits/application/1990n/help",
+      "order": 3,
+      "description": "Answers to common questions about VA Form 22-1990n and the NCS education benefit."
+    }
+  ],
+  "relatedLinks": {
+    "heading": "Related VA education benefits",
+    "links": [
+      {
+        "label": "Post-9/11 GI Bill (Chapter 33)",
+        "path": "/education/about-gi-bill-benefits/post-9-11/",
+        "description": "Education benefits for servicemembers who served on active duty after September 10, 2001."
+      },
+      {
+        "label": "Apply for VA education benefits (VA Form 22-1990)",
+        "path": "/education/apply-for-va-education-benefits/application/1990/",
+        "description": "Apply for GI Bill or other VA education benefits using VA Form 22-1990."
+      },
+      {
+        "label": "Change your school or program (VA Form 22-1995)",
+        "path": "/find-forms/about-form-22-1995",
+        "description": "Request a change of school or program after you're already receiving VA education benefits."
+      },
+      {
+        "label": "GI Bill Comparison Tool",
+        "path": "/education/gi-bill-comparison-tool/",
+        "description": "Compare schools and training programs approved for VA education benefits."
+      },
+      {
+        "label": "VA Form 22-0994 — VET TEC program",
+        "path": "/education/about-gi-bill-benefits/how-to-use-benefits/vettec-high-tech-program/apply-for-vettec-form-22-0994/",
+        "description": "Apply for VA's high-tech industry training program."
+      }
+    ]
+  },
+  "contactInfo": {
+    "heading": "Need help?",
+    "items": [
+      {
+        "label": "GI Bill Hotline",
+        "phone": "1-888-GI-BILL-1",
+        "phoneNumber": "1-888-442-4551",
+        "tty": "711",
+        "hours": "Monday through Friday, 8:00 a.m. to 7:00 p.m. ET"
+      },
+      {
+        "label": "VA.gov help desk",
+        "phone": "1-800-698-2411",
+        "tty": "711",
+        "hours": "Monday through Friday, 8:00 a.m. to 8:00 p.m. ET",
+        "description": "For technical issues with the online application."
+      },
+      {
+        "label": "Ask VA online",
+        "url": "https://ask.va.gov",
+        "description": "Submit a question to VA online."
+      }
+    ]
+  },
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "Education and training",
+      "path": "/education"
+    },
+    {
+      "name": "Apply for education benefits",
+      "path": "/education/apply-for-education-benefits"
+    },
+    {
+      "name": "Apply for NCS education benefits",
+      "path": "/education/apply-for-education-benefits/application/1990n"
+    }
+  ]
+}

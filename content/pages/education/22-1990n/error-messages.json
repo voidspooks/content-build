@@ -1,0 +1,266 @@
+{
+  "_comment": "Field-level validation, submission, and save-in-progress error messages for VA Form 22-1990n.",
+  "formId": "22-1990n",
+  "formTitle": "Application for VA Education Benefits Under the National Call to Service Program",
+
+  "fieldErrors": {
+    "socialSecurityNumber": {
+      "required": "Please enter your Social Security number.",
+      "pattern": "Please enter a valid 9-digit Social Security number (for example: 123-45-6789).",
+      "invalid": "Please enter a valid 9-digit Social Security number."
+    },
+    "dateOfBirth": {
+      "required": "Please enter your date of birth.",
+      "invalidDate": "Please enter a valid date of birth.",
+      "futureDate": "Your date of birth must be in the past.",
+      "tooRecent": "Please check your date of birth. You must be at least 17 years old to have enlisted."
+    },
+    "sex": {
+      "required": "Please select your sex."
+    },
+    "firstName": {
+      "required": "Please enter your first name."
+    },
+    "lastName": {
+      "required": "Please enter your last name."
+    },
+    "middleInitial": {
+      "pattern": "Middle initial must be a single letter (for example: A)."
+    },
+    "streetAddress": {
+      "required": "Please enter your street address."
+    },
+    "city": {
+      "required": "Please enter your city."
+    },
+    "state": {
+      "required": "Please select your state."
+    },
+    "zipCode": {
+      "required": "Please enter your ZIP code.",
+      "pattern": "Please enter a valid 5-digit ZIP code (for example: 12345)."
+    },
+    "homePhone": {
+      "pattern": "Please enter a valid 10-digit phone number (for example: 800-555-1234).",
+      "atLeastOneRequired": "Please provide at least one phone number (home or mobile)."
+    },
+    "mobilePhone": {
+      "pattern": "Please enter a valid 10-digit phone number (for example: 800-555-1234).",
+      "atLeastOneRequired": "Please provide at least one phone number (home or mobile)."
+    },
+    "emailAddress": {
+      "pattern": "Please enter a valid email address (for example: name@example.com)."
+    },
+    "typeOfTraining": {
+      "required": "Please select at least one type of education or training."
+    },
+    "flightTrainingCourseType": {
+      "required": "Please indicate whether your course is an Airline Transport Pilot course."
+    },
+    "flightTrainingAcknowledgment": {
+      "required": "Please confirm that you hold the required pilot certificate and medical certificate for your flight training course."
+    },
+    "schoolName": {
+      "required": "Please enter the name of your school or training establishment."
+    },
+    "schoolStreetAddress": {
+      "required": "Please enter your school's street address."
+    },
+    "schoolCity": {
+      "required": "Please enter your school's city."
+    },
+    "schoolState": {
+      "required": "Please select your school's state."
+    },
+    "schoolZipCode": {
+      "required": "Please enter your school's ZIP code.",
+      "pattern": "Please enter a valid 5-digit ZIP code for your school (for example: 12345)."
+    },
+    "activeDutyStatus": {
+      "required": "Please indicate whether you are currently on active duty."
+    },
+    "terminalLeaveStatus": {
+      "required": "Please indicate whether you are currently on terminal leave."
+    },
+    "serviceEntryDate": {
+      "required": "Please enter the date you entered service for this period.",
+      "invalidDate": "Please enter a valid date for when you entered service.",
+      "futureDate": "Your service entry date cannot be in the future.",
+      "beforeEligibilityDate": "The NCS program requires that you first entered military service on or after October 1, 2003. If this date is correct, you may not be eligible for NCS education benefits. Contact the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551) with questions."
+    },
+    "serviceSeparationDate": {
+      "invalidDate": "Please enter a valid date for when you separated from service.",
+      "futureDate": "Your separation date cannot be in the future unless you are currently serving.",
+      "beforeEntryDate": "Your separation date must be after your service entry date."
+    },
+    "serviceComponent": {
+      "required": "Please enter your service component (for example: USN, USAF, USAR, ARNG)."
+    },
+    "serviceStatus": {
+      "required": "Please enter your service status (for example: Active duty, drilling reservist, IRR)."
+    },
+    "ddForm2863Upload": {
+      "required": "Please upload your DD Form 2863 (NCS Election of Options). This document is required. We cannot process your application without it.",
+      "fileType": "Please upload your DD Form 2863 as a PDF, JPG, or PNG file.",
+      "fileSize": "Your DD Form 2863 file is too large. Please upload a file that is 20 MB or smaller.",
+      "uploadFailed": "We couldn't upload your DD Form 2863. Please try again. If the problem continues, call us at 1-800-698-2411 (TTY: 711)."
+    },
+    "ddForm214Upload": {
+      "required": "Please upload your DD Form 214 (Member 4 copy). This document is required if you are not on terminal leave.",
+      "fileType": "Please upload your DD Form 214 as a PDF, JPG, or PNG file.",
+      "fileSize": "Your DD Form 214 file is too large. Please upload a file that is 20 MB or smaller.",
+      "uploadFailed": "We couldn't upload your DD Form 214. Please try again. If the problem continues, call us at 1-800-698-2411 (TTY: 711).",
+      "wrongCopy": "Please make sure you upload the Member 4 copy of your DD Form 214. Other copies cannot be accepted."
+    },
+    "rotcScholarship": {
+      "required": "Please indicate whether you are participating in a Senior ROTC scholarship program."
+    },
+    "federalTuitionAssistance": {
+      "required": "Please indicate whether you are receiving or expect to receive money from the Armed Forces or Public Health Service for this course."
+    },
+    "civilianGovernmentFunding": {
+      "required": "Please indicate whether you expect to receive funds from your agency or department for these courses."
+    },
+    "civilianFundingSource": {
+      "required": "Please describe the source of funds from your agency or department."
+    },
+    "directDepositAccountType": {
+      "required": "Please select your account type (checking or savings)."
+    },
+    "routingNumber": {
+      "required": "Please enter your bank routing or transit number.",
+      "pattern": "Please enter a valid 9-digit routing number. You can find this number on the bottom left of your check.",
+      "invalid": "Please enter a valid bank routing number. The number you entered doesn't match a known routing number format."
+    },
+    "accountNumber": {
+      "required": "Please enter your bank account number.",
+      "pattern": "Please enter a valid account number between 4 and 17 digits."
+    },
+    "bankDocumentUpload": {
+      "required": "Please upload a voided personal check or deposit slip to verify your bank account information.",
+      "fileType": "Please upload your voided check or deposit slip as a PDF, JPG, or PNG file.",
+      "fileSize": "Your bank document file is too large. Please upload a file that is 20 MB or smaller.",
+      "uploadFailed": "We couldn't upload your bank document. Please try again. If the problem continues, call us at 1-800-698-2411 (TTY: 711)."
+    },
+    "esoCertification": {
+      "required": "Please certify that you have consulted with an Education Service Officer (ESO) about your education program before submitting your application."
+    },
+    "certificationAttestation": {
+      "required": "You must certify that all statements in your application are true and correct before submitting."
+    }
+  },
+
+  "pageErrors": {
+    "applicantInformation": {
+      "heading": "We found some errors in your applicant information.",
+      "body": "Please fix the errors below before continuing."
+    },
+    "educationTraining": {
+      "heading": "We found some errors in your education and training information.",
+      "body": "Please fix the errors below before continuing."
+    },
+    "serviceInformation": {
+      "heading": "We found some errors in your service information.",
+      "body": "Please fix the errors below before continuing."
+    },
+    "concurrentBenefits": {
+      "heading": "We found some errors in your concurrent benefits information.",
+      "body": "Please fix the errors below before continuing."
+    },
+    "directDeposit": {
+      "heading": "We found some errors in your direct deposit information.",
+      "body": "Please fix the errors below before continuing."
+    },
+    "reviewAndSubmit": {
+      "heading": "We found some errors. Please review your application before submitting.",
+      "body": "Please fix the errors listed below. Use the Edit links to return to the section with errors."
+    }
+  },
+
+  "submissionErrors": {
+    "networkError": {
+      "heading": "We're sorry. Something went wrong on our end.",
+      "body": "Your application wasn't submitted. Please try again. If it still doesn't work, call us at 1-800-698-2411 (TTY: 711), Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.",
+      "action": "Please don't submit your application again — we may have already received it. Wait a few minutes and try once more."
+    },
+    "timeout": {
+      "heading": "Your submission timed out.",
+      "body": "We didn't receive your application. Please check your internet connection and try again.",
+      "action": "If this keeps happening, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551), Monday through Friday, 8:00 a.m. to 7:00 p.m. ET."
+    },
+    "serverError": {
+      "heading": "We're sorry. We couldn't submit your application right now.",
+      "body": "Our system is temporarily unavailable. Please try again later.",
+      "action": "You can also apply by downloading and mailing VA Form 22-1990n. Visit va.gov/find-forms/about-form-22-1990n to download the form."
+    },
+    "duplicateSubmission": {
+      "heading": "It looks like you may have already submitted this application.",
+      "body": "We found an existing NCS education benefit application for your records. If you believe this is an error, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551).",
+      "action": "Don't submit again. Contact us if you need help checking your application status."
+    },
+    "missingRequiredDocuments": {
+      "heading": "Required documents are missing.",
+      "body": "Your application is missing one or more required documents. Please upload your DD Form 2863 (NCS Election of Options) and your DD Form 214 (Member 4 copy) before submitting.",
+      "action": "Return to the supporting documents section to upload your documents."
+    }
+  },
+
+  "saveInProgressErrors": {
+    "saveError": {
+      "heading": "We couldn't save your progress.",
+      "body": "Your recent changes weren't saved. Please check your internet connection.",
+      "action": "Try saving again. If it still doesn't work, write down where you left off and start over from that point when you return."
+    },
+    "loadError": {
+      "heading": "We couldn't load your saved application.",
+      "body": "We found a saved application but couldn't load it right now.",
+      "action": "Try refreshing the page. If your application still won't load, call us at 1-800-698-2411 (TTY: 711) for help."
+    },
+    "sessionExpired": {
+      "heading": "Your session expired.",
+      "body": "You were signed out because you were inactive for too long. Your progress was saved.",
+      "action": "Sign in again to continue your application where you left off."
+    },
+    "expiredApplication": {
+      "heading": "Your saved application has expired.",
+      "body": "Your saved application was more than 60 days old and has been deleted.",
+      "action": "You'll need to start a new application. Sign in and go to va.gov/education/apply-for-education-benefits/application/1990n to begin."
+    }
+  },
+
+  "authenticationErrors": {
+    "notSignedIn": {
+      "heading": "Sign in to save your progress.",
+      "body": "You can start the application without signing in, but we won't be able to save your progress automatically or fill in your information from VA records.",
+      "action": "Sign in to your VA.gov account to get the full experience and have your information pre-filled."
+    },
+    "signInRequired": {
+      "heading": "You need to sign in to continue.",
+      "body": "This part of the application requires you to be signed in.",
+      "action": "Sign in to your VA.gov account to continue."
+    }
+  },
+
+  "softWarnings": {
+    "serviceEntryDateEligibility": {
+      "heading": "Check your service entry date.",
+      "body": "The NCS program requires that you first entered military service on or after October 1, 2003. The date you entered may make you ineligible for this benefit.",
+      "action": "If this date is correct and you have questions about your eligibility, call the GI Bill Hotline at 1-888-GI-BILL-1 (1-888-442-4551). You can still submit your application and VA will determine your eligibility."
+    },
+    "prefillDataMayBeStale": {
+      "heading": "Please review your pre-filled information.",
+      "body": "We filled in some of your information from your VA records. If you separated from service recently, some dates or details may not be current.",
+      "action": "Check all pre-filled fields and correct anything that's wrong before continuing."
+    },
+    "terminalLeaveDD214Timing": {
+      "heading": "Your DD Form 214 may not be available yet.",
+      "body": "Because you're on terminal leave, your DD Form 214 (Member 4 copy) may not have been issued yet.",
+      "action": "You can submit your application now without your DD Form 214. Upload it when it's issued and mail it to your VA Regional Processing Office."
+    },
+    "noDirectDepositEnrollment": {
+      "heading": "You chose not to enroll in direct deposit.",
+      "body": "If you elect not to enroll in direct deposit, you must contact the Department of the Treasury at 1-888-224-2950 to request a waiver.",
+      "action": "You can still submit your application. Contact Treasury after submitting."
+    }
+  }
+}
